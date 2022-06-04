@@ -1,8 +1,3 @@
-var db = {
-    warning: ['https://*.xyz/*', 'http://*.xyz/*'],
-    danger: ['https://*/*', 'http://*/']
-}
-
 var sus = ['.xyz/'];
 
 var searchEngine = ['google.com'];
