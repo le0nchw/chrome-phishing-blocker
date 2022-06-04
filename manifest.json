@@ -7,7 +7,8 @@
         "http://*/*",
         "https://*/*",
         "webRequest",
-        "webRequestBlocking"
+        "webRequestBlocking",
+        "tab"
     ],
     "background": {
         "scripts": [
