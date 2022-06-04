@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "phishing blocker",
+    "description": "block phishing website from google search engine",
+    "version": "1.0",
+    "permissions": [
+        "http://*/*",
+        "https://*/*",
+        "webRequest",
+        "webRequestBlocking"
+    ],
+    "background": {
+        "scripts": [
+            "background/bg.js"
+        ],
+        "persistent": true
+    }
+}
